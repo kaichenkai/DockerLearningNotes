@@ -89,7 +89,7 @@ COPY				# 类似ADD, 将我们文件拷贝到镜像中
 ENV					# 构建的时候设置环境变量
 ```
 
-![Docker指令说明](/Users/kai/Documents/blog/Docker/assess/1629331-20201216233445858-1291138099.png)
+![Docker指令说明](assess/1629331-20201216233445858-1291138099.png)
 
 <br>
 
@@ -97,7 +97,7 @@ ENV					# 构建的时候设置环境变量
 
 docker hup 中 99% 的镜像都是从 scratch 这个基础镜像过来的, 然后配置需要的软件和配置来进行构建
 
-![构建自己的centos](/Users/kai/Documents/blog/Docker/assess/1629331-20201216233621175-2033352804.png)
+![构建自己的centos](assess/1629331-20201216233621175-2033352804.png)
 
 
 ##### 编写 dockerfile, 从centos基础模板开始
